@@ -28,11 +28,17 @@ body {
   height: 200px;
   align-items: center;
 }
-button{
+button {
   font-size: 30px;
+  text-decoration: none;
+  border: none;
 }
-i{
-    margin-left: 15px;
+
+button a {
+  text-decoration: none;
+}
+i {
+  margin-left: 15px;
 }
 #piedra {
   background-color: burlywood;
