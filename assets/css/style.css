@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+body {
+  background-color: wheat;
+}
+.manos {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+#piedra,
+#papel,
+#tijera {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  height: 200px;
+  align-items: center;
+}
+i{
+    margin-left: 15px;
+}
+#piedra {
+  background-color: burlywood;
+  margin: 10px;
+}
+#papel {
+  background-color: burlywood;
+  margin: 10px;
+}
+#tijera {
+  background-color: burlywood;
+  margin: 10px;
+}
+@media (max-width: 576px) {
+  .manos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #piedra,
+  #papel,
+  #tijera {
+    width: 90%;
+    height: 100px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
